@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Aca van los estilos del header */
+
+body {
+
+    overflow: hidden;
+}
+
+header {
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image-container {
+    /* margin-right: 1pc; */
+    width: 20px;
+    height: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.imag-container {
+    margin-right: 1pc;
+    width: 20px;
+    height: 20px;
+}
+
+.imag-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button button {
+    background-color: #585934;
+    border: none;
+    border-radius: 50%;
+}
+
+/* Aca van los estilos de buscar */
+
+.busqueda {
+    display: flex;
+}
+
+/* Aca van los estilos del main */
+
+.hero {
+    height: 70vh;
+    width: 100%;
+}
+
+.cuadro {
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3pc;
+    margin-top: 2pc;
+    margin-left: 3pc;
+}
+
+/* Aca van los estilos de la tabla */
+
+table {
+    width: 50%;
+    border-spacing: 0;
+}
+
+.summary {
+    width: 40pc;
+    height: 40px;
+}
+
+.summary th {
+    text-align: initial;
+    background-color: #888a5c;
+
+}
+
+.product {
+    margin-right: 5pc;
+}
+
+.buttonTa button {
+    margin-left: 20px;
+}
+
+.contMueble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #888a5c;
+    margin-top: 1pc;
+    border-radius: 6px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.asgard {
+    width: 90px;
+    height: 90px;
+}
+
+
+.imgMueble {
+    width: 70%;
+
+}
+
+/* Aca van los estilos de la tarjeta */
+
+.cart {
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: #888a5c;
+    color: #fff;
+    height: 90%;
+    width: 22%;
+}
+
+.cartTo {
+    margin-bottom: 30px;
+}
+
+.totals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.totales .letras {
+    margin-right: 30px;
+}
+
+.subTotal {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.total {
+    display: flex;
+    margin-bottom: 3pc;
+}
+
+.btnCheck button {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #888a5c;
+    height: 2.5pc;
+    width: 9pc;
+}
+
+.btnCheck button:hover {
+    cursor: pointer;
+}
+
+/* Aca van los estilos de la segunda section */
+
+
+.caracteristicas {
+    margin-top: 4pc;
+    margin-left: 5pc;
+}
+
+.advantages {
+    display: flex;
+    margin-left: 6pc;
+}
+
+
+.quality {
+    display: flex;
+    margin-right: 3pc;
+
+}
+
+.img-containerC {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.img-containerC img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Aca van los estilos del footer */
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-top: 1pc;
+}
+
+.social-media {
+    display: flex;
+    margin-left: 4pc;
+}
+
+.social-media .image-cont {
+    margin-right: 1pc;
+    width: 20px;
+    height: 20px;
+}
+
+.image-cont img {
+    width: 100%;
+    height: 100%;
+}

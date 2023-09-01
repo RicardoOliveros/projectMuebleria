@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Aca van los estilos del header */
+
+body {
+    background-color: rgb(220, 220, 220);
+    overflow: hidden;
+}
+
+header {
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image-container {
+    /* margin-right: 1pc; */
+    width: 20px;
+    height: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.imag-container {
+    margin-right: 1pc;
+    width: 20px;
+    height: 20px;
+}
+
+.imag-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button button {
+    background-color: #585934;
+    border: none;
+    border-radius: 50%;
+}
+
+/* Aca van los estilos de buscar */
+
+.busqueda {
+    display: flex;
+}
+
+/* Aca van los estilos del main */
+
+.hero {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 3pc;
+}
+
+
+.mueble img {
+    width: 600px;
+    height: 500px;
+}
+
+
+/* Aca van los estilos de los tamaños */
+
+.tit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1pc;
+
+}
+
+.tit span {
+    font-size: 24px;
+    margin-right: 4pc;
+}
+
+
+/* Aca van los estilos del footer */
+
+footer {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.social-media {
+    display: flex;
+    margin-left: 4pc;
+}
+
+.social-media .image-cont {
+    margin-right: 1pc;
+    width: 20px;
+    height: 20px;
+}
+
+.image-cont img {
+    width: 100%;
+    height: 100%;
+}
+
+.colores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-top: 5pc;
+
+}
+
+#sub {
+    font-size: 26px;
+}
+
+.contP {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1pc;
+    font-size: 22px;
+
+}
+
+.contP p {
+    margin-right: 4px;
+}
+
+.contP img {
+    width: 15px;
+    height: 15px;
+}
+
+.contS {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+
+}
+
+.contS p {
+    margin-right: 4px;
+}
+
+.contS img {
+    width: 15px;
+    height: 15px;
+}
+
+.sizes {
+    margin-bottom: 0.4pc;
+
+}
+
+.sizes button {
+    margin-right: 4px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+
+.shop {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 0.7pc;
+}
+
+.shop img {
+    width: 15px;
+    height: 15px;
+}
+
+#select {
+    width: 20pc;
+    height: 25px;
+    border-radius: 3px;
+    margin-bottom: 1pc;
+}
+
+.buy {
+    border: none;
+    background-color: #AEA260;
+    width: 10pc;
+    height: 25px;
+    border-radius: 3px;
+    margin-right: 1pc;
+}
+
+.cart {
+    color: #000;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(220, 220, 220);
+}
+
+.circulo-verde {
+    position: absolute;
+    top: -8pc;
+    /* bottom: 10px; */
+    right: 50pc;
+    border: 60px solid #585934;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: -1;
+    width: 50pc;
+    height: 50pc;
+}
+
+.circulo-blanco {
+    position: absolute;
+    top: -3pc;
+    /* bottom: 10px; */
+    right: 57pc;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: -1;
+    width: 50pc;
+    height: 50pc;
+}

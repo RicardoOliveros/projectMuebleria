@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Aca van los estilos del header */
+
+body {
+    background-color: rgb(220, 220, 220);
+    overflow: hidden;
+}
+
+header {
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image-container {
+    /* margin-right: 1pc; */
+    width: 20px;
+    height: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.price p {
+    text-align: center;
+}
+
+.imag-container {
+    margin-right: 1pc;
+    width: 20px;
+    height: 20px;
+}
+
+.imag-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button button {
+    background-color: #585934;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* Aca van los estilos de buscar */
+
+.busqueda {
+    display: flex;
+}
+
+
+
+/* Aca van los estilos del main */
+
+.hero {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3pc;
+}
+
+.info {
+    width: 20pc;
+}
+
+.info h1 {
+    font-size: 48px;
+    color: #585934;
+}
+
+.butt {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.browse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #AEA260;
+    color: #000;
+    border-radius: 2px;
+    border: none;
+    margin-top: 1pc;
+    width: 10pc;
+    height: 2pc;
+}
+
+.browse:hover {
+    cursor: pointer;
+}
+
+.butt .spring {
+    margin-top: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.butt .spring:hover {
+    text-decoration: underline;
+}
+
+.mueble {
+    position: absolute;
+    left: 30pc;
+}
+
+.mueble img {
+    width: 600px;
+    height: 500px;
+}
+
+/* Aca van los estilos de los botones */
+.containerBotones {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.verde {
+    background-color: #585934;
+}
+
+.salmon {
+    background-color: rgb(255, 149, 0);
+}
+
+.verdeClaro {
+    background-color: rgb(43, 90, 43);
+}
+
+.beige {
+    background-color: rgba(212, 198, 179, 0.971);
+}
+
+.negro {
+    background-color: #000;
+}
+
+
+.price h3 {
+    margin-top: 1pc;
+    margin-bottom: 0.5pc;
+}
+
+.price button {
+    margin-top: 1pc;
+}
+
+.price button:hover {
+    cursor: pointer;
+}
+
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.image-container img {
+    width: 80%;
+    height: 80%;
+}
+
+
+.circulo-verde {
+    position: absolute;
+    top: -8pc;
+    /* bottom: 10px; */
+    left: 50pc;
+    border: 60px solid #585934;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: -1;
+    width: 50pc;
+    height: 50pc;
+}
+
+.circulo-blanco {
+    position: absolute;
+    top: -3pc;
+    /* bottom: 10px; */
+    left: 57pc;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: -1;
+    width: 50pc;
+    height: 50pc;
+}
+
+
+
+/* Aca van los estilos del footer */
+
+footer {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.social-media {
+    display: flex;
+    margin-left: 4pc;
+}
+
+.social-media .image-cont {
+    margin-right: 1pc;
+    width: 20px;
+    height: 20px;
+}
+
+.image-cont img {
+    width: 100%;
+    height: 100%;
+}
